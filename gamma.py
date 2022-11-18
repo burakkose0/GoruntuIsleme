@@ -19,7 +19,7 @@ gammaImg = cv2.putText(gammaImg, 'Gama Donusumu = 90.4 ', (30,30) , cv2.FONT_HER
 
 cv2.imshow('Original image', img)
 cv2.imshow('Gamma corrected image', gammaImg)
-cv2.imwrite("siyah3.jpg",gammaImg)
+cv2.imwrite('Gamma corrected image', gammaImg)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
